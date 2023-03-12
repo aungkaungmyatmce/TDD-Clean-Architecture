@@ -27,7 +27,7 @@ dependencies:
   #Functional programming
   dartz: ^0.10.1
 
-  connectivity_plus: ^3.0.3
+  data_connection_checker_nulls: ^0.0.2
 
   shared_preferences: ^2.0.18
 
