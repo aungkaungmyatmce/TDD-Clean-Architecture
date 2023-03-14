@@ -31,10 +31,13 @@ dependencies:
 
   shared_preferences: ^2.0.18
 
+  http: ^0.13.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   mocktail: ^0.2.0
+  mockito: ^5.3.2
 
   flutter_lints: ^2.0.0
 
