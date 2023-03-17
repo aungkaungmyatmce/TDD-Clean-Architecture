@@ -105,7 +105,7 @@ void main() {
         final result = await repository.getConcreteNumberTrivia(tNumber);
         verify(() => mockRemoteDataSource.getConcreteNumberTrivia(tNumber));
         verifyZeroInteractions(mockLocalDataSource);
-        expect(result, equals(Left(SeverFailure())));
+        expect(result, equals(Left(ServerFailure())));
       });
     });
 
@@ -184,7 +184,7 @@ void main() {
         final result = await repository.getRandomNumberTrivia();
         verify(() => mockRemoteDataSource.getRandomNumberTrivia());
         verifyZeroInteractions(mockLocalDataSource);
-        expect(result, equals(Left(SeverFailure())));
+        expect(result, equals(Left(ServerFailure())));
       });
     });
 

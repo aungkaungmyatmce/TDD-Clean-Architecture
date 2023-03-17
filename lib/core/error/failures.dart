@@ -4,10 +4,10 @@ import 'package:tdd_clean_architecture/core/error/exception.dart';
 abstract class Failure extends Equatable {}
 
 // General failure
-class SeverFailure extends Failure {
+class ServerFailure extends Failure {
   @override
   // TODO: implement props
-  List<Object?> get props => [SeverFailure];
+  List<Object?> get props => [ServerFailure];
 }
 
 class CacheFailure extends Failure {
